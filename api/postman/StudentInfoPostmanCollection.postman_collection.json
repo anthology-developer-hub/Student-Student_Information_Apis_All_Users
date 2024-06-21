@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "0b24ff43-1628-4d9f-8731-8fb023dc2bd7",
+		"name": "StudentInfoPostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26523921"
+	},
+	"item": [
+		{
+			"name": "FetchAllStudents",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "FetchStudentInfoByID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetCurrentEnrollmetByStudentId",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": "test@700031cm.onmicrosoft.com",
+			"type": "string"
+		},
+		{
+			"key": "pasword",
+			"value": "test$2024",
+			"type": "string"
+		}
+	]
+}
